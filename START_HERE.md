@@ -78,7 +78,7 @@ data/tirages.csv
 
 ## Sauvegarde
 
-Git :
+XGit :
 
 git status
 
