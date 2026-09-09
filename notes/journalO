@@ -1,204 +1,225 @@
 # 🎯 CARTE PROJET - ANALYSE LOTTO
 
 ╔══════════════════════════════════════╗
-║   $$$-- PROJET ANALYSE LOTTO  --$$$  ║
+║          PROJET ANALYSE LOTTO        ║
 ╚══════════════════════════════════════╝
 
---Objectif :
+Objectif :
 Créer un programme capable d'analyser des tirages Lotto
 à partir de données historiques en format CSV.
 
-    Date de création :--5:55
-    09-09-2026
+Date de création :
+09-09-2026
 
 Langage :
 Python
 
 ==================================================
 
----🏠 EMPLACEMENT DU PROJET
+🏠 EMPLACEMENT DU PROJET
 
---Dossier principal :
+Dossier principal :
 
-    ~/analyse_lotto
+~/analyse_lotto
+
 
 ==================================================
 
----🧭 CARTE RAPIDE DU PROJET
+🧭 CARTE RAPIDE DU PROJET
 
 
---📄 README.md
+📄 README.md
 
 → Résumé rapide du projet
 
--📄 CARTE_PROJET.md
+
+📄 CARTE_PROJET.md
 
 → Ce fichier
 
-    → À ouvrir en premier quand je reviens sur le projet
+→ À ouvrir en premier quand je reviens sur le projet
 
 
--📄 MANUEL_PROJET.md
+📄 MANUEL_PROJET.md
 
 → Explications détaillées
 → Commandes importantes
 → Méthode de travail
 
+
 ==================================================
 
----🐍 PROGRAMME
+🐍 PROGRAMME
 
 
---📁 src/
+📁 src/
 
--Contient le moteur du programme.
+Contient le moteur du programme.
+
 
 Fichier principal :
 
     src/analyse.py
 
--Rôle :
+
+Rôle :
 
 Lire les données
 Faire les calculs
 Produire les analyses
 
+
 ==================================================
 
----📊 DONNÉES
+📊 DONNÉES
 
 
---📁 data/
+📁 data/
 
 
--Contient les données utilisées par le programme.
+Contient les données utilisées par le programme.
 
--Fichiers :
 
-    tirages.csv
+Fichiers :
+
+tirages.csv
 
 → historique des tirages
 
--sources.txt      
 
-→ données Internet
+sources.txt
 
--Méthode :
+→ endroit où noter la provenance des données Internet
 
--Internet
+
+Méthode :
+
+Internet
     ↓
--Nettoyage des données
+Nettoyage des données
     ↓
--Conversion CSV
+Conversion CSV
     ↓
--Lecture par Python
+Lecture par Python
+
 
 ==================================================
 
----📝 NOTES
+📝 NOTES
 
 
---📁 notes/
+📁 notes/
 
 
--Contient la mémoire du projet.
+Contient la mémoire du projet.
+
 
 journal.md
 
 → Ce que j'ai fait chaque fois
+
 
 recuperation.md
 
 → Comment retrouver le projet
 
 
-    idées.md
+idées.md
 
 → Nouvelles idées pour améliorer le programme
 
+
 ==================================================
 
----💾 SAUVEGARDES
+💾 SAUVEGARDES
 
 
---📁 sauvegardes/
+📁 sauvegardes/
 
 
--Contient les copies de sécurité.
+Contient les copies de sécurité.
 
--Format :
 
-    analyse_lotto_DATE.tar.gz
+Format :
+
+analyse_lotto_DATE.tar.gz
+
 
 Exemple :
 
-    analyse_lotto_COMPLET_2026-09-09.tar.gz
+analyse_lotto_COMPLET_2026-09-09.tar.gz
+
 
 ==================================================
 
----🧪 TESTS
+🧪 TESTS
 
 
----📁 tests/
+📁 tests/
 
 
---Contient les essais.
+Contient les essais.
 
--Avant de modifier le programme :
+
+Avant de modifier le programme :
 
 Tester ici.
 
+
 ==================================================
 
----🔧 COMMANDES IMPORTANTES
+🔧 COMMANDES IMPORTANTES
 
 
---Voir les fichiers :
+Voir les fichiers :
 
+find . -maxdepth 3 -type f
 
--find . -maxdepth 3 -type f
 
 Voir l'état :
 
-    git status
+git status
 
 
--Voir l'historique :
+Voir l'historique :
 
--git log --oneline
+git log --oneline
 
--Voir les fichiers sauvegardés dans Git :
 
-    git ls-tree -r HEAD --name-only
+Voir les fichiers sauvegardés dans Git :
+
+git ls-tree -r HEAD --name-only
 
 
 Créer une sauvegarde :
 
-    tar -czf sauvegarde.tar.gz analyse_lotto/
+tar -czf sauvegarde.tar.gz analyse_lotto/
 
--Restaurer :
 
-    tar -xzf sauvegarde.tar.gz
+Restaurer :
+
+tar -xzf sauvegarde.tar.gz
+
 
 ==================================================
 
----🚀 PROCHAINE ÉTAPE
+🚀 PROCHAINE ÉTAPE
 
 
--1. Ajouter les données Lotto CSV
+1. Ajouter les données Lotto CSV
 
--2. Tester la lecture avec Python
+2. Tester la lecture avec Python
 
--3. Ajouter les analyses statistiques
+3. Ajouter les analyses statistiques
 
--4. Améliorer progressivement le programme
+4. Améliorer progressivement le programme
+
 
 ==================================================
 
----🧠 NOTE PERSONNELLE
+🧠 NOTE PERSONNELLE
 
-     --POUR MOI DE MOI--
- 
+
 Ce fichier existe pour que mon futur moi
 retrouve rapidement le projet sans devoir
 tout recommencer.

@@ -1,0 +1,225 @@
+# 🎯 CARTE PROJET - ANALYSE LOTTO
+
+╔══════════════════════════════════════╗
+║          PROJET ANALYSE LOTTO        ║
+╚══════════════════════════════════════╝
+
+Objectif :
+Créer un programme capable d'analyser des tirages Lotto
+à partir de données historiques en format CSV.
+
+Date de création :
+09-09-2026
+
+Langage :
+Python
+
+==================================================
+
+🏠 EMPLACEMENT DU PROJET
+
+Dossier principal :
+
+~/analyse_lotto
+
+
+==================================================
+
+🧭 CARTE RAPIDE DU PROJET
+
+
+📄 README.md
+
+→ Résumé rapide du projet
+
+
+📄 CARTE_PROJET.md
+
+→ Ce fichier
+
+→ À ouvrir en premier quand je reviens sur le projet
+
+
+📄 MANUEL_PROJET.md
+
+→ Explications détaillées
+→ Commandes importantes
+→ Méthode de travail
+
+
+==================================================
+
+🐍 PROGRAMME
+
+
+📁 src/
+
+Contient le moteur du programme.
+
+
+Fichier principal :
+
+src/analyse.py
+
+
+Rôle :
+
+Lire les données
+Faire les calculs
+Produire les analyses
+
+
+==================================================
+
+📊 DONNÉES
+
+
+📁 data/
+
+
+Contient les données utilisées par le programme.
+
+
+Fichiers :
+
+tirages.csv
+
+→ historique des tirages
+
+
+sources.txt
+
+→ endroit où noter la provenance des données Internet
+
+
+Méthode :
+
+Internet
+    ↓
+Nettoyage des données
+    ↓
+Conversion CSV
+    ↓
+Lecture par Python
+
+
+==================================================
+
+📝 NOTES
+
+
+📁 notes/
+
+
+Contient la mémoire du projet.
+
+
+journal.md
+
+→ Ce que j'ai fait chaque fois
+
+
+recuperation.md
+
+→ Comment retrouver le projet
+
+
+idées.md
+
+→ Nouvelles idées pour améliorer le programme
+
+
+==================================================
+
+💾 SAUVEGARDES
+
+
+📁 sauvegardes/
+
+
+Contient les copies de sécurité.
+
+
+Format :
+
+analyse_lotto_DATE.tar.gz
+
+
+Exemple :
+
+analyse_lotto_COMPLET_2026-09-09.tar.gz
+
+
+==================================================
+
+🧪 TESTS
+
+
+📁 tests/
+
+
+Contient les essais.
+
+
+Avant de modifier le programme :
+
+Tester ici.
+
+
+==================================================
+
+🔧 COMMANDES IMPORTANTES
+
+
+Voir les fichiers :
+
+find . -maxdepth 3 -type f
+
+
+Voir l'état :
+
+git status
+
+
+Voir l'historique :
+
+git log --oneline
+
+
+Voir les fichiers sauvegardés dans Git :
+
+git ls-tree -r HEAD --name-only
+
+
+Créer une sauvegarde :
+
+tar -czf sauvegarde.tar.gz analyse_lotto/
+
+
+Restaurer :
+
+tar -xzf sauvegarde.tar.gz
+
+
+==================================================
+
+🚀 PROCHAINE ÉTAPE
+
+
+1. Ajouter les données Lotto CSV
+
+2. Tester la lecture avec Python
+
+3. Ajouter les analyses statistiques
+
+4. Améliorer progressivement le programme
+
+
+==================================================
+
+🧠 NOTE PERSONNELLE
+
+
+Ce fichier existe pour que mon futur moi
+retrouve rapidement le projet sans devoir
+tout recommencer.
